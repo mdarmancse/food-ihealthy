@@ -1,0 +1,6 @@
+ALTER TABLE `users` ADD `engage` INT NULL DEFAULT '0' AFTER `updated_date`, ADD `onoff` INT NULL DEFAULT '1' AFTER `engage`, ADD `suspend` INT NULL DEFAULT '1' AFTER `onoff`;
+ALTER TABLE `order_driver_map` ADD `cancel` TINYINT(4) NULL AFTER `date`, ADD `no_response` TINYINT(4) NULL AFTER `cancel`, ADD `timer` DATETIME NULL AFTER `no_response`;
+UPDATE `order_driver_map` SET `cancel`=0,`no_response`=0;
+
+//note make cancel and no response column default 0
+//note add a cronjob in server side to

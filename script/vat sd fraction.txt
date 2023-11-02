@@ -1,0 +1,2 @@
+1. ALTER TABLE `order_master` CHANGE `vat` `vat` DECIMAL(10,2) NULL DEFAULT NULL;
+2. ALTER TABLE `order_master` CHANGE `sd` `sd` DECIMAL(10,2) NULL DEFAULT NULL;

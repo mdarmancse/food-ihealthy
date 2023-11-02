@@ -1,0 +1,4 @@
+add device_id to restaurant table and
+ALTER TABLE `restaurant` ADD `device_id` VARCHAR(255) NULL DEFAULT NULL AFTER `delivery_time`;
+run some table upadte query 
+sendNotiRestaurant model and call from ad order

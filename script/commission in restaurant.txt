@@ -1,0 +1,2 @@
+1. ALTER TABLE `restaurant` ADD `commission` INT NOT NULL DEFAULT '0' AFTER `likes`;
+2. ALTER TABLE `order_master` ADD `commission_rate` INT NOT NULL DEFAULT '0' AFTER `zone_id`, ADD `commission_value` INT NOT NULL DEFAULT '0' AFTER `commission_rate`;

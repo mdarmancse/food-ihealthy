@@ -1,0 +1,13 @@
+{
+    "grant_url": "https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/token/grant",
+    "create_url": "https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/create",
+    "execute_url": "https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/execute",
+    "refund": "https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/payment/refund",
+    "app_key": "DHdhN8ZkWkgmbr4FZv7qKQtAtc",
+    "app_secret": "xiMM0ADB1AaD6vzDnGRRDi4atKfmZK56rlySomgNnEXMUyb0PFdT",
+    "Username": "01322819397",
+    "Password": "7wB;SVDPF?[",
+    "callback": "https://foodibd.com/v1/Bkash/bKashSuccess",
+    "callback_agreement": "https://foodibd.com/v1/Bkash/AgreementSuccess",
+    "cancel_agreement": "https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/agreement/cancel"
+}

@@ -1,0 +1,13 @@
+.DS_Store
+application/logs/*
+.htaccess
+application/cache/*
+application/config/database.php
+uploads/*
+error_log
+application.zip
+google-cloud-cred.json
+composer.lock
+Dump20230902.zip
+food_foodi.sql
+food_foodi.sql.zip

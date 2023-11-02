@@ -1,0 +1,3 @@
+DELETE FROM `riders_earning`;
+
+Note: Add riders_earning.sql and system_option.sql and then apply the above query.

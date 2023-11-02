@@ -1,0 +1,1 @@
+ALTER TABLE `restaurant` CHANGE `price_range` `price_range` VARCHAR(80) NULL DEFAULT NULL;
